@@ -16,6 +16,7 @@ function love.load()
     ladybug.clickCount = 0
     ladybug.clicksToMove = 5
 
+    -- You can pass functions to tables
     function ladybug:checkWin()
         return ladybug.clickCount >= ladybug.clicksToMove
     end
